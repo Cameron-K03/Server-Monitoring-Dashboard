@@ -13,7 +13,7 @@ This is a simple server monitoring dashboard built with Python, Flask, and psuti
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/server-monitoring-dashboard.git
+    git clone https://github.com/Cameron-K03/server-monitoring-dashboard.git
     ```
 
 2. Install the required packages:
