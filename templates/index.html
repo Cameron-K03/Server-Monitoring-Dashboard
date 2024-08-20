@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Monitoring Dashboard</title>
+</head>
+<body>
+    <h1>Server Monitoring Dashboard</h1>
+    <ul>
+        <li>CPU Usage: {{ data.cpu_usage }}%</li>
+        <li>Memory Total: {{ data.memory_total | round(2) }} GB</li>
+        <li>Memory Used: {{ data.memory_used | round(2) }} GB</li>
+        <li>Memory Free: {{ data.memory_free | round(2) }} GB</li>
+        <li>Disk Total: {{ data.disk_total | round(2) }} GB</li>
+        <li>Disk Used: {{ data.disk_used | round(2) }} GB</li>
+        <li>Disk Free: {{ data.disk_free | round(2) }} GB</li>
+    </ul>
+</body>
+</html>
